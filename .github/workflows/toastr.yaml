@@ -23,6 +23,9 @@ jobs:
 
     - name: update dependencies
       run: npm update
+      
+    - name: Run tests
+      run: npm test  # Run tests (adjust this command based on your project's needs)
 
   deploy:
     runs-on: ubuntu-latest
